@@ -1,0 +1,76 @@
+/* Colors */
+:root {
+    --blue-header: rgb(56, 56, 167);
+    --search-btn-bg: rgb(83, 83, 170);
+    --forecast-card-bg: rgb(58, 60, 78);
+    --history-btn-bg: rgb(105, 124, 233);
+}
+
+/* Header */
+.header-blue {
+    background-color: var(--blue-header);
+}
+
+/* Search Button */
+.search-btn {
+    width: 100%;
+    background-color: var(--search-btn-bg);
+    color: white;
+    margin-top: .5rem;
+}
+
+/* Search Text */
+.search-text {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+/* Container */
+.container {
+    border: .1rem solid black;
+    padding: .5rem;
+}
+
+/* Day Head */
+.dayHead {
+    font-weight: 700;
+}
+
+/* Weather Text */
+.weatherText {
+    font-size: 1.2rem;
+}
+
+/* Forecast Card */
+.forecast-card {
+    background-color: var(--forecast-card-bg);
+    margin: 5px;
+}
+
+/* Forecast Head */
+.forehead {
+    color: white;
+    font-weight: 700;
+}
+
+/* Forecast Text */
+.foretext {
+    color: white;
+    font-size: 1.2rem;
+}
+
+/* History Button */
+.history-btn {
+    padding: .5rem;
+    background-color: var(--history-btn-bg);
+    color: white;
+    border-radius: .25rem;
+    border: 0;
+    margin: .5rem 0;
+    transition: color .15s ease-in-out;
+}
+
+/* Hover Effect for History Button */
+.history-btn:hover {
+    color: black;
+}
